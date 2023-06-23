@@ -29,6 +29,11 @@ import { MatListModule } from '@angular/material/list';
 import { SidebarComponent } from './pages/admin/sidebar/sidebar.component';
 import { WelcomeComponent } from './pages/admin/welcome/welcome.component';
 import { MatMenuModule } from '@angular/material/menu';
+import { ViewCategoriasComponent } from './pages/admin/view-categorias/view-categorias.component';
+import { ViewExamenesComponent } from './view-examenes/view-examenes.component';
+import { ActualizarExamenComponent } from './actualizar-examen/actualizar-examen.component';
+import { ActualizarPreguntaComponent } from './actualizar-pregunta/actualizar-pregunta.component';
+import { AddCategoriaComponent } from './pages/admin/add-categoria/add-categoria.component';
 
 
 
@@ -43,7 +48,12 @@ import { MatMenuModule } from '@angular/material/menu';
     UserDashboardComponent,
     ProfileComponent,
     SidebarComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    ViewCategoriasComponent,
+    ViewExamenesComponent,
+    ActualizarExamenComponent,
+    ActualizarPreguntaComponent,
+    AddCategoriaComponent
   ],
   imports: [
 
